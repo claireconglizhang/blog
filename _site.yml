@@ -1,12 +1,24 @@
-name: "blog"
-title: "My Blog"
-description: |
-  My Blog
 output_dir: "docs"
 navbar:
-  right:
-    - text: "Home"
-      href: index.html
-    - text: "About"
-      href: about.html
-output: distill::distill_article
+  title: 张聪莉的博客
+  left:
+  - text: 日常散记
+    href: life.html
+  - text: 编个故事
+    href: novel.html
+  - text: 试着写诗
+    href: poem.html
+  - text: 镜头看世界
+    href: photo.html
+  - text: 家教随笔
+    href: parenting.html
+  - text: 教育随笔
+    href: education.html
+  - text: 我的科研
+    href: research.html
+  search: true
+
+output:
+  html_document:
+   lib_dir: site_libs
+   self_contained: no

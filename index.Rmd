@@ -1,7 +1,4 @@
 ---
-title: "My Blog"
-description: |
-  Welcome to the website. I hope you enjoy it!
 site: distill::distill_website
 ---
 
@@ -16,3 +13,4 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
+欢迎来到我的个人博客。留言请发电邮至 congliclairezhang@gmail.com。

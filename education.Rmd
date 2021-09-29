@@ -1,0 +1,12 @@
+---
+title: ""
+output:
+  html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+教育世家的教育出走。
+
